@@ -45,7 +45,7 @@ function App() {
             <Accordion.Header className="Title">Project #1</Accordion.Header>
             <Accordion.Body>
               <h3>로또 번호 추첨기</h3>
-              <p>검지손가락 끝에 행운의 기를 모아 클릭 한방으로 숫자 여섯개를 뽑는다. </p>
+              <p>검지손가락 끝에 행운의 기운을 모아 클릭 한방으로 숫자 여섯개를 뽑는다. </p>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
