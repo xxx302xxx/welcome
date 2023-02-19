@@ -1,5 +1,59 @@
+@font-face {
+  font-family: 'PyeongChangPeace-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+}
+  @font-face {  
+font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+}
+
 .App {
   text-align: center;
+}
+
+.black-nav {
+  background: #3b3b3b;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 40px;
+  font-family: 'PyeongChangPeace-Bold';
+  font-size: 36px;
+}
+
+.accordion {
+	--bs-accordion-btn-color: black;
+	--bs-accordion-btn-bg: white;
+  --bs-accordion-btn-focus-box-shadow: white;
+  --bs-accordion-active-boder: white;
+	--bs-accordion-active-color: black;
+	--bs-accordion-active-bg: white;
+    font-size: 17px;
+    font-family: 'GmarketSansMedium';
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.accordion-button {
+  padding: 30px;
+  font-size: 18px;
+}
+
+.accordion-body {
+  padding: 50px;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
 }
 
 .App-logo {
