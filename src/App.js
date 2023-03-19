@@ -43,9 +43,9 @@ function App() {
           <Accordion.Item eventKey="0">
             <Accordion.Header className="Title">Project #1</Accordion.Header>
             <Accordion.Body>
-              <h3>로또 번호 추첨기</h3>
-              <p>검지손가락 끝에 행운의 기운을 모아 클릭 한방으로 숫자 여섯개를 뽑는다. </p>
-              <img src="https://xxx302xxx.github.io/lotto-capture.png" width="80%" /> 
+              <h3><a href="http://xxx302xxx.github.io/lotto" target="_blank" title="열기">로또 번호 추첨기</a></h3>
+              <p>좋은 꿈 꾸셨나요? 검지손가락 끝에 행운의 기운을 모아 여섯개의 숫자를 뽑아보세요. </p>
+              <img src="https://github.com/xxx302xxx/xxx302xxx.github.io/blob/main/public/lotto-capture.png?raw=true" width="50%" /> 
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
