@@ -4,7 +4,6 @@ import logo from './logo.svg';
 import './App.css';
 import {Accordion} from 'react-bootstrap';
 
-
 function App() {
 
  
@@ -46,6 +45,7 @@ function App() {
             <Accordion.Body>
               <h3>로또 번호 추첨기</h3>
               <p>검지손가락 끝에 행운의 기운을 모아 클릭 한방으로 숫자 여섯개를 뽑는다. </p>
+              <img src="https://xxx302xxx.github.io/lotto-capture.png" width="80%" /> 
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
